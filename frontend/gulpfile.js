@@ -8,8 +8,6 @@ const cssnext = require('postcss-cssnext');
 const babel = require('gulp-babel');
 const htmlmin = require('gulp-htmlmin');
 const inlinemin = require('gulp-minify-inline');
-const selectors = require('gulp-selectors');
-var clean = require('gulp-clean');
 
 const paths = {
   js: 'scripts/*.js',
@@ -24,7 +22,7 @@ gulp.task('js', () => {
     }))    
     .pipe(concat('app.js'))
     .pipe(uglify())
-    .pipe(gulp.dest('.tmp/dist'));
+    .pipe(gulp.dest('../public'));
 });
 
 gulp.task('css', () => {
@@ -35,30 +33,22 @@ gulp.task('css', () => {
       cssnano(),
       cssnext()
     ]))
-    .pipe(gulp.dest('.tmp/dist'));
+    .pipe(gulp.dest('../public'));
 });
 
 gulp.task('html', () => {
   return gulp.src(paths.tpls)
     .pipe(htmlmin({collapseWhitespace: true}))
     .pipe(inlinemin())
-    .pipe(gulp.dest('.tmp/dist'));
+    .pipe(gulp.dest('../pages'));
 })
 
-gulp.task('default', ['js', 'css', 'html'], () => {
-  return [
-    gulp.src('.tmp/dist/*')
-      .pipe(selectors.run({
-        'css': ['css'],
-        'html': ['php'],
-        'js-strings': ['js']
-      }, {
-        classes: ['menu', 'content', 'menu__anchor_active']
-      }))
-      .pipe(gulp.dest('.tmp/optimized')),
-    gulp.src(['.tmp/optimized/app.js', '.tmp/optimized/app.css'])
-      .pipe(gulp.dest('../public')),
-    gulp.src('.tmp/optimized/*.php')
-      .pipe(gulp.dest('../pages'))
-  ];
+gulp.task('build', ['js', 'css', 'html']);
+
+gulp.task('watch', () => {
+  gulp.watch(paths.js, ['js']);
+  gulp.watch(paths.js, ['css']);
+  gulp.watch(paths.tpls, ['html']);
 });
+
+gulp.task('default', ['build', 'watch']);
