@@ -8,12 +8,13 @@ html, body {
 	margin: 0;
 	border: 0;
 
-	background: #eff2f5;
+	background: #f7f9fa;
 }
 
 .header {
-	height: 150px;
+	height: 106px;
 	background: #9869b1;
+	border-bottom: 4px solid #7b4896;
 }
 
 .header__wrapper {
@@ -29,6 +30,10 @@ html, body {
 	width: 260px;
 	vertical-align: middle;
 	text-align: center;
+}
+
+.header__logo-container img {
+	height: 78px;
 }
 
 .header__title-container {
@@ -54,7 +59,7 @@ html, body {
 }
 
 .body__wrapper {
-	width: 960px;
+	max-width: 960px;
 	margin: 0 auto;
 	background: #ffffff;
 	font-size: 0;
@@ -94,11 +99,11 @@ html, body {
 	display: inline-block;
 	width: 700px;
 	min-height: 500px;
-	border-left: 1px solid #c1bcbc;
+	border-left: 1px solid rgba(0, 0, 0, .08);
 }
 
 .content {
-	padding: 10px;
+	padding: 20px;
 	font-size: 12pt;
 }
 
@@ -118,7 +123,7 @@ html, body {
 	background: #ffffff;
 	padding: 20px 0;
 
-	border-top: 1px solid #c1bcbc;
+	border-top: 1px solid rgba(0, 0, 0, .08);
 }
 
 .footer__title {
