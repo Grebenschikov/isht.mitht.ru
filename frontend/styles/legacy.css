@@ -1,0 +1,84 @@
+.index-table {
+	width: 100%;
+}
+
+.index-table > tbody {
+	vertical-align: top;
+}
+
+.index-table__photo-wrap {
+	width: 105px;
+}
+
+.index-table__photo {
+	width: inherit;
+	margin-right: 10px;
+}
+
+.index-table__name {
+	font-size: 15pt;
+}
+
+.index-table__status {
+	font-size: 11pt;
+}
+
+.index-table__address {
+	font-size: 11pt;	
+}
+
+.index-table__time {
+	font-size: 11pt;
+}
+
+.ul {
+	font-size: 1em;
+    line-height: 1.5em;
+    margin: 0 0 0 2em;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.ul > li {
+	list-style-type: none;
+    text-indent: -1em;
+}
+
+.ul > li:before {
+    content: "–";
+    margin: 0 .4em 0 0;
+}
+
+
+.peoples td {
+	padding-bottom: 30px;
+}
+
+.peoples > tbody {
+	vertical-align: top;
+}
+
+.peoples__photo {
+	width: 110px;
+}
+
+.peoples__photo img {
+	width: 110px;
+}
+
+.peoples__data {
+	padding-left: 5px;
+}
+
+.peoples__name {
+	font-size: 14pt;
+	margin-bottom: 10px;
+}
+
+.peoples__info {
+	font-size: 11pt;
+}
+
+.content__text p {
+	text-indent: 20px;
+}

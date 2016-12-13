@@ -1,0 +1,18 @@
+.docs h1 {
+	font-size: 13pt;
+    font-weight: 500;
+}
+
+.docs h2 {
+	font-size: 12pt;
+    font-weight: 500;
+}
+
+.docs a {
+	text-decoration: none;
+    color: #3e5fc3;
+}
+
+.docs a:hover {
+    color: #0031c7;
+}
