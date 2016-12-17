@@ -45,7 +45,7 @@ if (array_key_exists("HTTP_X_REQUESTED_WITH", $_SERVER)) {
   echo tpl("layout", $params);
 }
 
-function tpl($tpl, array $vars = []) {
+function tpl($tpl, array $vars = array()) {
   $dir = dirname(__FILE__) . "/..";
   ob_start();
   extract($vars);
