@@ -9,14 +9,14 @@ const babel = require('gulp-babel');
 const htmlmin = require('gulp-htmlmin');
 const inlinemin = require('gulp-minify-inline');
 
-const paths = {
-  js: 'scripts/*.js',
-  css: 'styles/*.css',
-  tpls: 'templates/*',
+const path = {
+  js: 'scripts/**/*.js',
+  css: 'styles/**/*.css',
+  tpl: 'templates/*.php',
 }
 
 gulp.task('js', () => {
-  return gulp.src(paths.js)
+  return gulp.src(path.js)
     .pipe(babel({
       presets: ['es2015']
     }))    
@@ -26,7 +26,7 @@ gulp.task('js', () => {
 });
 
 gulp.task('css', () => {
-  return gulp.src(paths.css)
+  return gulp.src(path.css)
     .pipe(concat('app.css'))
     .pipe(postcss([
       autoprefixer(),
@@ -36,19 +36,19 @@ gulp.task('css', () => {
     .pipe(gulp.dest('../public'));
 });
 
-gulp.task('html', () => {
-  return gulp.src(paths.tpls)
+gulp.task('tpl', () => {
+  return gulp.src(path.tpl)
     .pipe(htmlmin({collapseWhitespace: true}))
     .pipe(inlinemin())
     .pipe(gulp.dest('../pages'));
 })
 
-gulp.task('build', ['js', 'css', 'html']);
+gulp.task('build', ['js', 'css', 'tpl']);
 
 gulp.task('watch', () => {
   gulp.watch(paths.js, ['js']);
   gulp.watch(paths.css, ['css']);
-  gulp.watch(paths.tpls, ['html']);
+  gulp.watch(paths.tpls, ['tpl']);
 });
 
 gulp.task('default', ['build', 'watch']);

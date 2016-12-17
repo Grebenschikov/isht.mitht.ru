@@ -1,8 +1,13 @@
 <?php
 
 date_default_timezone_set('Europe/Moscow');
-ini_set('display_errors', 'on');
-error_reporting(E_ALL);
+
+if (isset($_SERVER['REMOTE_ADDR']) && $_SERVER['REMOTE_ADDR'] == '127.0.0.1') {
+  ini_set('display_errors', 'on');
+  error_reporting(E_ALL);
+} else {
+  ini_set('display_errors', 'off');
+}
 
 $pages = array(
   "" => "О кафедре",
