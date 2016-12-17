@@ -1,3 +1,42 @@
+* {
+  font-family: 'Open Sans', sans-serif;
+  box-sizing: border-box;
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+  border: 0;
+
+  background: #f7f9fa;
+}
+
+.body__wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+  background: #ffffff;
+  font-size: 0;
+}
+
+.docs h1 {
+  font-size: 13pt;
+  font-weight: 500;
+}
+
+.docs h2 {
+  font-size: 12pt;
+  font-weight: 500;
+}
+
+.docs a {
+  text-decoration: none;
+  color: #3e5fc3;
+}
+
+.docs a:hover {
+  color: #0031c7;
+}
+
 .index-table {
   width: 100%;
 }

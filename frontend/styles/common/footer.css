@@ -1,0 +1,30 @@
+.footer {
+  text-align: center;
+
+  &__wrapper {
+    max-width: 960px;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 20px 0;
+
+    border-top: 1px solid rgba(0, 0, 0, .08);
+  }
+
+  &__title {
+    color: #757575;
+    font-size: 12pt;
+    text-decoration: none;
+    display: block;
+  }
+
+  &__title:hover {
+    color: #565656;
+  }
+
+  &__copyright {
+    color: #969696;
+    font-size: 9pt;
+    padding: 5px;
+    display: block;
+  }
+}

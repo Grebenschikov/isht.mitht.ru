@@ -7,6 +7,11 @@
     }
   };
 
+  const pageDidLoad = () => {
+    document.body.scrollTop = 0;
+    document.querySelector('.menu').classList.add('menu_hidden');
+  };
+
   const clickListener = e => {
     const el = e.target;
     if (
@@ -17,7 +22,7 @@
     ) {
       e.preventDefault();
       if (el.href == window.location.href) {
-        document.body.scrollTop = 0
+        pageDidLoad();
         return;
       }
 
@@ -36,7 +41,7 @@
   const getPage = (href, cb) => {
     var xhr = new XMLHttpRequest();
     xhr.open('POST', href);
-    xhr.setRequestHeader("X-Requested-With", "XMLHttpRequest");
+    xhr.setRequestHeader('X-Requested-With', 'XMLHttpRequest');
     event(xhr, 'readystatechange', () => {
       if (xhr.readyState != 4) {
         return;
@@ -63,7 +68,11 @@
     });
 
     document.querySelector(`.menu a[href="/${data.page}"]`).classList.add('menu__anchor_active');
-    document.body.scrollTop = 0
+    pageDidLoad();
+  };
+
+  const menuAction = () => {
+    document.querySelector('.menu').classList.toggle('menu_hidden');
   };
 
   event(window, 'popstate', e => {
@@ -75,6 +84,7 @@
   });
 
   event(window, 'load', () => {
+    event(document.querySelector('.header__menu-icon'), 'click', menuAction)
     event(document.body, 'click', clickListener);
   });
 

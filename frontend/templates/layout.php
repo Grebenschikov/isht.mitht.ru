@@ -4,7 +4,11 @@
   <meta charset="utf-8">
   <title><?=$title?></title>
   <link rel="stylesheet" type="text/css" href="/app.css">
-  <meta name="yandex-verification" content="4cbc78b86d3340b9" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="robots" content="index, follow">
+  <meta name="keywords" content="МИТХТ, ИСХТ, Кафедра информационых систем в химической технологии, Московский технологический университет">
+  <meta name="description" content="Официальный сайт кафедры информационых систем в химической технологии МИТХТ.">
+  <meta name="yandex-verification" content="4cbc78b86d3340b9">
 
   <link rel="apple-touch-icon" sizes="57x57" href="/icons/apple-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="60x60" href="/icons/apple-icon-60x60.png">
@@ -23,15 +27,18 @@
   <meta name="msapplication-TileColor" content="#9869b1">
   <meta name="msapplication-TileImage" content="/icons/ms-icon-144x144.png">
   <meta name="theme-color" content="#9869b1">
-
 </head>
 <body>
 <div class="header">
   <div class="header__wrapper">
+    <img class="header__menu-icon" src="/images/menu.svg">
     <div class="header__logo-container">
       <a href="/" class="header__logo"></a>
     </div>
     <div class="header__title-container">
+      <div class="header__short-title">
+        <a href="/" class="header__anchor">Кафедра ИСХТ</a>
+      </div>
       <div class="header__title">
         <a href="/" class="header__anchor">Кафедра информационых систем в химической технологии</a>
       </div>
@@ -41,8 +48,8 @@
 </div>
 <div class="body">
   <div class="body__wrapper">
-    <div class="body__left">
-      <ul class="menu">
+    <div class="menu menu_hidden">
+      <ul class="menu__container">
         <?php foreach($pages as $link => $title):?>
           <li class="menu__item">
             <a class="menu__anchor <?php if ($link == $page):?>menu__anchor_active<?php endif;?>" href="/<?=$link?>">
@@ -52,7 +59,7 @@
         <?php endforeach;?>
       </ul>
     </div>
-    <div class="body__right content">
+    <div class="content">
       <?=$content?>
     </div>
   </div>

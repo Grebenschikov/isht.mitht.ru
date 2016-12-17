@@ -2,7 +2,6 @@ const gulp = require('gulp');
 const concat = require('gulp-concat');
 const uglify = require('gulp-uglify');
 const postcss = require('gulp-postcss');
-const autoprefixer = require('autoprefixer');
 const cssnano = require('cssnano');
 const cssnext = require('postcss-cssnext');
 const babel = require('gulp-babel');
@@ -29,9 +28,8 @@ gulp.task('css', () => {
   return gulp.src(path.css)
     .pipe(concat('app.css'))
     .pipe(postcss([
-      autoprefixer(),
-      cssnano(),
-      cssnext()
+      cssnext(),
+      cssnano({autoprefixer: false})
     ]))
     .pipe(gulp.dest('../public'));
 });
@@ -46,9 +44,9 @@ gulp.task('tpl', () => {
 gulp.task('build', ['js', 'css', 'tpl']);
 
 gulp.task('watch', () => {
-  gulp.watch(paths.js, ['js']);
-  gulp.watch(paths.css, ['css']);
-  gulp.watch(paths.tpls, ['tpl']);
+  gulp.watch(path.js, ['js']);
+  gulp.watch(path.css, ['css']);
+  gulp.watch(path.tpl, ['tpl']);
 });
 
 gulp.task('default', ['build', 'watch']);
