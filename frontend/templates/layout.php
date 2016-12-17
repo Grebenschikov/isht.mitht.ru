@@ -3,7 +3,8 @@
 <head>
   <meta charset="utf-8">
   <title><?=$title?></title>
-  <link rel="stylesheet" type="text/css" href="/app.css">
+  <link href="/app.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600&subset=cyrillic-ext" rel="stylesheet">
   <!--[if lte IE 8]>
     <link rel="stylesheet" type="text/css" href="/ie.css" />
   <![endif]-->
