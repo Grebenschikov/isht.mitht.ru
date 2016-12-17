@@ -1,253 +1,169 @@
 <div class="content__title">Сотрудники</div>
-<div class="content__text">        
-  <table class="peoples">
-  <tr>
-    <td class="peoples__photo">
-      <img src="/images/peoples/1_kornyushko.jpg">
-    </td>
-    <td class="peoples__data">  
-      <div class="peoples__name">Корнюшко Валерий Федорович</div>
-      
-      <div class="peoples__info"><b>Занимаемая должность:</b> заведующий кафедрой</div>
-      <div class="peoples__info"><b>Ученая степень, звание:</b> доктор технических наук, профессор </div>
-      <div class="peoples__info"><b>Специальность по диплому:</b> Автоматика и телемеханика </div>
-      <div class="peoples__info"><b>Преподаваемые дисциплины:</b> «Методы оптимизации», «Теория информационных систем», «Математические методы в экономике», «Информационные технологии в управлении химико-технологическими системами» </div>
-      <div class="peoples__info"><b>Общий стаж работы:</b> 54 года </div>
-      <div class="peoples__info"><b>Научно-педагогический стаж работы:</b> 46 лет</div>
-    </td>
-  </tr>
-
-  <tr>
-      <td class="peoples__photo">
-      <img src="/images/peoples/2_burlyaev.jpg">
-    </td>
-        
-    <td class="peoples__data">
-  <div class="peoples__name">Бурляев Валерий Викторович</div>
-      
-    <div class="peoples__info"><b>Занимаемая должность:</b> профессор</div>
-    <div class="peoples__info"><b>Ученая степень, звание:</b> кандидат технических наук, профессор</div>
-    <div class="peoples__info"><b>Специальность по диплому:</b> Автоматика и телемеханика (техническая кибернетика)</div>
-    <div class="peoples__info"><b>Преподаваемые дисциплины:</b> «Численные методы», «Прикладное программное обеспечение», «Компьютерные технологии математических исследований», «Практикум по прикладному программному обеспечению», «Информационные технологии в управлении химико-технологическими процессами», «Информационные технологии в науке, производстве и инновациях»</div>
-    <div class="peoples__info"><b>Общий стаж работы:</b> 54 года</div>
-    <div class="peoples__info"><b>Научно-педагогический стаж работы:</b> 41 год</div>
-                       
-    </td>
-  </tr>
-     
-  <tr>
-      <td class="peoples__photo">
-      <img src="/images/peoples/3_burlyaeva.jpg">
-    </td>
-        
-    <td class="peoples__data">
-  <div class="peoples__name">Бурляева Елена Валерьевна</div>
-      
-    <div class="peoples__info"><b>Занимаемая должность:</b> профессор</div>
-    <div class="peoples__info"><b>Ученая степень, звание:</b> доктор технических наук, профессор</div>
-    <div class="peoples__info"><b>Специальность по диплому:</b> прикладная математика</div>
-    <div class="peoples__info"><b>Преподаваемые дисциплины:</b> «Интеллектуальные информационные системы», «Численные методы», «Информационные технологии в управлении химико-технологическими процессами», «Дискретная математика», «Интеллектуальные информационные системы в химической технологии», Информационные технологии в управлении химико-технологическими системами</div>
-    <div class="peoples__info"><b>Общий стаж работы:</b> 22 года</div>
-    <div class="peoples__info"><b>Научно-педагогический стаж работы:</b> 22 года</div>
-                       
-    </td>
-  </tr>
-
-  <tr>
-      <td class="peoples__photo">
-      <img src="/images/peoples/4_kolybanov.jpg">
-    </td>
-        
-    <td class="peoples__data">
-  <div class="peoples__name">Колыбанов Кирилл Юрьевич</div>
-      
-    <div class="peoples__info"><b>Занимаемая должность:</b> профессор</div>
-    <div class="peoples__info"><b>Ученая степень, звание:</b> доктор технических наук, доктор технических наук</div>
-    <div class="peoples__info"><b>Специальность по диплому:</b> физико-химические исследования металлургических процессов</div>
-    <div class="peoples__info"><b>Преподаваемые дисциплины:</b> «Теория управления», «Информационные системы в химической технологии», «Информационная безопасность», «Информационный менеджмент», «Проектирование информационных систем в химической технологии», «Проектный практикум» «Вычислительные системы, сети и телекоммуникации», «Информационные банки данных в химической технологии»</div>
-    <div class="peoples__info"><b>Общий стаж работы:</b> 21 год</div>
-    <div class="peoples__info"><b>Научно-педагогический стаж работы:</b> 21 год</div>
-                       
-    </td>
-  </tr> 
-
-  <tr>
-      <td class="peoples__photo">
-      <img src="/images/peoples/5_panova.jpg">
-    </td>
-        
-    <td class="peoples__data">
-  <div class="peoples__name">Панова Светлана Анатольевна</div>
-      
-    <div class="peoples__info"><b>Занимаемая должность:</b> профессор</div>
-    <div class="peoples__info"><b>Ученая степень, звание:</b> доктор технических наук, кандидат химических наук, кандидат экономических наук, доцент</div>
-    <div class="peoples__info"><b>Специальность по диплому:</b> химия и технология основного органического и нефтехимического синтеза</div>
-    <div class="peoples__info"><b>Преподаваемые дисциплины:</b> Дополнительные главы информационных технологий, Специальные главы химии, Системный анализ, управление и обработка информации в химической технологии</div>
-    <div class="peoples__info"><b>Общий стаж работы:</b> 28 лет</div>
-    <div class="peoples__info"><b>Научно-педагогический стаж работы:</b> 25 лет</div>
-                       
-    </td>
-  </tr>
-   
-  <tr>
-      <td class="peoples__photo">
-      <img src="/images/peoples/6_komarov.jpg">
-    </td>
-        
-    <td class="peoples__data">
-  <div class="peoples__name">Комаров Владимир Михайлович</div>
-      
-    <div class="peoples__info"><b>Занимаемая должность:</b> профессор</div>
-    <div class="peoples__info"><b>Ученая степень, звание:</b> доктор физико-математических наук, профессор</div>
-    <div class="peoples__info"><b>Специальность по диплому:</b> прикладная математика</div>
-    <div class="peoples__info"><b>Преподаваемые дисциплины:</b> «Информационные технологии в химии», «Основы разработки информационных систем в химической технологии», «Имитационное моделирование», «Математическое моделирование», «Имитационное моделирование»</div>
-    <div class="peoples__info"><b>Общий стаж работы:</b> 45 года</div>
-    <div class="peoples__info"><b>Научно-педагогический стаж работы:</b> 45 года</div>
-                       
-    </td>
-  </tr>  
-   
-  <tr>
-      <td class="peoples__photo">
-      <img src="/images/peoples/7_biglov.jpg">
-    </td>
-        
-    <td class="peoples__data">
-  <div class="peoples__name">Биглов Рем Равильевич</div>
-      
-    <div class="peoples__info"><b>Занимаемая должность:</b> доцент</div>
-    <div class="peoples__info"><b>Ученая степень, звание:</b> кандидат технических наук, доцент</div>
-    <div class="peoples__info"><b>Специальность по диплому:</b> Химия и технология основного органического и нефтехимического синтеза</div>
-    <div class="peoples__info"><b>Преподаваемые дисциплины:</b> «Информационные технологии в химии», «Основы разработки информационных систем в химической технологии», «Анализ многомерных данных»</div>
-    <div class="peoples__info"><b>Общий стаж работы:</b> 39 лет</div>
-    <div class="peoples__info"><b>Научно-педагогический стаж работы:</b> 39 лет</div>
-                       
-    </td>
-  </tr>
-   
-  <tr>
-      <td class="peoples__photo">
-      <img src="/images/peoples/8_brykina.jpg">
-    </td>
-        
-    <td class="peoples__data">
-  <div class="peoples__name">Брыкина Галина Валентиновна</div>
-      
-    <div class="peoples__info"><b>Занимаемая должность:</b> доцент</div>
-    <div class="peoples__info"><b>Ученая степень, звание:</b> кандидат технических наук, доцент</div>
-    <div class="peoples__info"><b>Специальность по диплому:</b> Автоматика и телемеханика</div>
-    <div class="peoples__info"><b>Преподаваемые дисциплины:</b> «Информационные технологии в химии», «Основы разработки информационных систем в химической технологии», «Базы данных», «Базы данных в химической технологии», «Информационные системы в управлении химическим предприятием», «Дополнительные главы ИТ»</div>
-    <div class="peoples__info"><b>Общий стаж работы:</b> 38 лет</div>
-    <div class="peoples__info"><b>Научно-педагогический стаж работы:</b> 23 года</div>
-                       
-    </td>
-  </tr>
-   
-  <tr>
-      <td class="peoples__photo">
-      <img src="/images/peoples/9_boridko.jpg">
-    </td>
-        
-    <td class="peoples__data">
-  <div class="peoples__name">Боридко Владимир Станиславович</div>
-      
-    <div class="peoples__info"><b>Занимаемая должность:</b> доцент</div>
-    <div class="peoples__info"><b>Ученая степень, звание:</b> кандидат технических наук, доцент</div>
-    <div class="peoples__info"><b>Специальность по диплому:</b> химия и технология тонких органических соединений</div>
-    <div class="peoples__info"><b>Преподаваемые дисциплины:</b> «Информационные технологии в химии», «Основы разработки информационных систем в химической технологии», Операционные системы и сети</div>
-    <div class="peoples__info"><b>Общий стаж работы:</b> 17 лет</div>
-    <div class="peoples__info"><b>Научно-педагогический стаж работы:</b> 17 лет</div>
-                       
-    </td>
-  </tr>
-
-  <tr>
-      <td class="peoples__photo">
-      <img src="/images/peoples/10_dudarev.jpg">
-    </td>
-        
-    <td class="peoples__data">
-  <div class="peoples__name">Дударев Виктор Анатольевич</div>
-      
-    <div class="peoples__info"><b>Занимаемая должность:</b> доцент</div>
-    <div class="peoples__info"><b>Ученая степень, звание:</b> кандидат технических наук, доцент</div>
-    <div class="peoples__info"><b>Специальность по диплому:</b> Автоматизированные системы обработки информации и управления</div>
-    <div class="peoples__info"><b>Преподаваемые дисциплины:</b> «Вычислительные системы, сети и телекоммуникации», «Программирование», «Высокоуровневые методы информатики»</div>
-  «Программные и аппаратные средства информатики»
-    <div class="peoples__info"><b>Общий стаж работы:</b> 15 лет</div>
-    <div class="peoples__info"><b>Научно-педагогический стаж работы:</b> 15 лет</div>
-                       
-    </td>
-  </tr>  
-
-  <tr>
-    <td class="peoples__photo">
-      <img src="/images/peoples/11_razlivinskaya.jpg">
-    </td>
-        
-    <td class="peoples__data">
-  <div class="peoples__name">Разливинская Светлана Владимировна</div>
-      
-    <div class="peoples__info"><b>Занимаемая должность:</b> доцент</div>
-    <div class="peoples__info"><b>Ученая степень, звание:</b> кандидат технических наук, доцент</div>
-    <div class="peoples__info"><b>Специальность по диплому:</b> Химическая технология и биотехнология</div>
-    <div class="peoples__info"><b>Преподаваемые дисциплины:</b> «Информационные технологии в химии», «Основы разработки информационных систем в химической технологии», «Информационные технологии  в управлении химико-технологическими процессами», «Мировые информационные ресурсы», «Корпоративные информационные системы»</div>
-    <div class="peoples__info"><b>Общий стаж работы:</b> 20 лет</div>
-    <div class="peoples__info"><b>Научно-педагогический стаж работы:</b> 15 лет</div>
-                       
-    </td>
-  </tr>
-
-  <tr>
-      <td class="peoples__photo">
-      <img src="/images/peoples/12_kryukova.jpg">
-    </td>
-        
-    <td class="peoples__data">
-  <div class="peoples__name">Крюкова Ольга Викторовна</div>
-      
-    <div class="peoples__info"><b>Занимаемая должность:</b> старший преподаватель</div>
-    <div class="peoples__info"><b>Специальность по диплому:</b> инженер-электромеханик</div>
-    <div class="peoples__info"><b>Преподаваемые дисциплины:</b> «Информационные технологии в химии», «Основы разработки информационных систем в химической технологии», «Информационные технологии  в управлении химико-технологическими процессами», «Мировые информационные ресурсы», «Корпоративные информационные системы»</div>
-    <div class="peoples__info"><b>Общий стаж работы:</b> 35 лет</div>
-    <div class="peoples__info"><b>Научно-педагогический стаж работы:</b> 19 лет</div>
-                       
-    </td>
-  </tr>
-   
-  <tr>
-      <td class="peoples__photo">
-      <img src="/images/peoples/13_stolbov.jpg">
-    </td>
-        
-    <td class="peoples__data">
-  <div class="peoples__name">Столбов Леонид</div>
-      
-    <div class="peoples__info"><b>Занимаемая должность:</b> ассистент</div>
-    <div class="peoples__info"><b>Специальность по диплому:</b> химическая технология и биотехнология</div>
-    <div class="peoples__info"><b>Преподаваемые дисциплины:</b> «Информационные технологии в химии», «Основы разработки информационных систем в химической технологии», «Математические методы в экономике»</div>
-    <div class="peoples__info"><b>Общий стаж работы:</b> 5 лет</div>
-    <div class="peoples__info"><b>Научно-педагогический стаж работы:</b> 2 года</div>
-                       
-    </td>
-  </tr>  
-
-  <tr>
-      <td class="peoples__photo">
-      <img src="/images/peoples/14_davydenko.jpg">
-    </td>
-        
-    <td class="peoples__data">
-  <div class="peoples__name">Давыденко Андрей Александрович</div>
-      
-    <div class="peoples__info"><b>Занимаемая должность:</b> ассистент</div>
-    <div class="peoples__info"><b>Специальность по диплому:</b> Прикладная информатика</div>
-    <div class="peoples__info"><b>Преподаваемые дисциплины:</b> «Информационные технологии в химии», «Основы разработки информационных систем в химической технологии»</div>
-    <div class="peoples__info"><b>Общий стаж работы:</b> 5 лет</div>
-    <div class="peoples__info"><b>Научно-педагогический стаж работы:</b> 2 года</div>
-                       
-    </td>
-  </tr> 
-
-  </table>
+<div class="content__text">
+  <div class="people">
+    <img class="people__photo" src="/images/peoples/1_kornyushko.jpg">
+    <div class="people__info">
+      <div class="people__name">Корнюшко Валерий Федорович</div>
+      <span class="people__info-label">Занимаемая должность:</span> заведующий кафедрой<br>
+      <span class="people__info-label">Ученая степень, звание:</span> доктор технических наук, профессор <br>
+      <span class="people__info-label">Специальность по диплому:</span> Автоматика и телемеханика <br>
+      <span class="people__info-label">Преподаваемые дисциплины:</span> «Методы оптимизации», «Теория информационных систем», «Математические методы в экономике», «Информационные технологии в управлении химико-технологическими системами» <br>
+      <span class="people__info-label">Общий стаж работы:</span> 54 года <br>
+      <span class="people__info-label">Научно-педагогический стаж работы:</span> 46 лет<br>
+    </div>
+  </div>
+  <div class="people">
+    <img class="people__photo" src="/images/peoples/2_burlyaev.jpg">
+    <div class="people__info">
+      <div class="people__name">Бурляев Валерий Викторович</div>
+      <span class="people__info-label">Занимаемая должность:</span> профессор<br>
+      <span class="people__info-label">Ученая степень, звание:</span> кандидат технических наук, профессор<br>
+      <span class="people__info-label">Специальность по диплому:</span> Автоматика и телемеханика (техническая кибернетика)<br>
+      <span class="people__info-label">Преподаваемые дисциплины:</span> «Численные методы», «Прикладное программное обеспечение», «Компьютерные технологии математических исследований», «Практикум по прикладному программному обеспечению», «Информационные технологии в управлении химико-технологическими процессами», «Информационные технологии в науке, производстве и инновациях»<br>
+      <span class="people__info-label">Общий стаж работы:</span> 54 года<br>
+      <span class="people__info-label">Научно-педагогический стаж работы:</span> 41 год<br>
+    </div>
+  </div>
+  <div class="people">
+    <img class="people__photo" src="/images/peoples/3_burlyaeva.jpg">
+    <div class="people__info">
+      <div class="people__name">Бурляева Елена Валерьевна</div>
+      <span class="people__info-label">Занимаемая должность:</span> профессор<br>
+      <span class="people__info-label">Ученая степень, звание:</span> доктор технических наук, профессор<br>
+      <span class="people__info-label">Специальность по диплому:</span> прикладная математика<br>
+      <span class="people__info-label">Преподаваемые дисциплины:</span> «Интеллектуальные информационные системы», «Численные методы», «Информационные технологии в управлении химико-технологическими процессами», «Дискретная математика», «Интеллектуальные информационные системы в химической технологии», Информационные технологии в управлении химико-технологическими системами<br>
+      <span class="people__info-label">Общий стаж работы:</span> 22 года<br>
+      <span class="people__info-label">Научно-педагогический стаж работы:</span> 22 года<br>
+    </div>
+  </div>
+  <div class="people">
+    <img class="people__photo" src="/images/peoples/4_kolybanov.jpg">
+    <div class="people__info">
+      <div class="people__name">Колыбанов Кирилл Юрьевич</div>
+      <span class="people__info-label">Занимаемая должность:</span> профессор<br>
+      <span class="people__info-label">Ученая степень, звание:</span> доктор технических наук, доктор технических наук<br>
+      <span class="people__info-label">Специальность по диплому:</span> физико-химические исследования металлургических процессов<br>
+      <span class="people__info-label">Преподаваемые дисциплины:</span> «Теория управления», «Информационные системы в химической технологии», «Информационная безопасность», «Информационный менеджмент», «Проектирование информационных систем в химической технологии», «Проектный практикум» «Вычислительные системы, сети и телекоммуникации», «Информационные банки данных в химической технологии»<br>
+      <span class="people__info-label">Общий стаж работы:</span> 21 год<br>
+      <span class="people__info-label">Научно-педагогический стаж работы:</span> 21 год<br>
+    </div>
+  </div>
+  <div class="people">
+    <img class="people__photo" src="/images/peoples/5_panova.jpg">
+    <div class="people__info">
+      <div class="people__name">Панова Светлана Анатольевна</div>
+      <span class="people__info-label">Занимаемая должность:</span> профессор<br>
+      <span class="people__info-label">Ученая степень, звание:</span> доктор технических наук, кандидат химических наук, кандидат экономических наук, доцент<br>
+      <span class="people__info-label">Специальность по диплому:</span> химия и технология основного органического и нефтехимического синтеза<br>
+      <span class="people__info-label">Преподаваемые дисциплины:</span> Дополнительные главы информационных технологий, Специальные главы химии, Системный анализ, управление и обработка информации в химической технологии<br>
+      <span class="people__info-label">Общий стаж работы:</span> 28 лет<br>
+      <span class="people__info-label">Научно-педагогический стаж работы:</span> 25 лет<br>
+    </div>
+  </div>
+  <div class="people">
+    <img class="people__photo" src="/images/peoples/6_komarov.jpg">
+    <div class="people__info">
+      <div class="people__name">Комаров Владимир Михайлович</div>
+      <span class="people__info-label">Занимаемая должность:</span> профессор<br>
+      <span class="people__info-label">Ученая степень, звание:</span> доктор физико-математических наук, профессор<br>
+      <span class="people__info-label">Специальность по диплому:</span> прикладная математика<br>
+      <span class="people__info-label">Преподаваемые дисциплины:</span> «Информационные технологии в химии», «Основы разработки информационных систем в химической технологии», «Имитационное моделирование», «Математическое моделирование», «Имитационное моделирование»<br>
+      <span class="people__info-label">Общий стаж работы:</span> 45 года<br>
+      <span class="people__info-label">Научно-педагогический стаж работы:</span> 45 года<br>
+    </div>
+  </div>
+  <div class="people">
+    <img class="people__photo" src="/images/peoples/7_biglov.jpg">
+    <div class="people__info">
+      <div class="people__name">Биглов Рем Равильевич</div>
+      <span class="people__info-label">Занимаемая должность:</span> доцент<br>
+      <span class="people__info-label">Ученая степень, звание:</span> кандидат технических наук, доцент<br>
+      <span class="people__info-label">Специальность по диплому:</span> Химия и технология основного органического и нефтехимического синтеза<br>
+      <span class="people__info-label">Преподаваемые дисциплины:</span> «Информационные технологии в химии», «Основы разработки информационных систем в химической технологии», «Анализ многомерных данных»<br>
+      <span class="people__info-label">Общий стаж работы:</span> 39 лет<br>
+      <span class="people__info-label">Научно-педагогический стаж работы:</span> 39 лет<br>
+    </div>
+  </div>
+  <div class="people">
+    <img class="people__photo" src="/images/peoples/8_brykina.jpg">
+    <div class="people__info">
+      <div class="people__name">Брыкина Галина Валентиновна</div>
+      <span class="people__info-label">Занимаемая должность:</span> доцент<br>
+      <span class="people__info-label">Ученая степень, звание:</span> кандидат технических наук, доцент<br>
+      <span class="people__info-label">Специальность по диплому:</span> Автоматика и телемеханика<br>
+      <span class="people__info-label">Преподаваемые дисциплины:</span> «Информационные технологии в химии», «Основы разработки информационных систем в химической технологии», «Базы данных», «Базы данных в химической технологии», «Информационные системы в управлении химическим предприятием», «Дополнительные главы ИТ»<br>
+      <span class="people__info-label">Общий стаж работы:</span> 38 лет<br>
+      <span class="people__info-label">Научно-педагогический стаж работы:</span> 23 года<br>
+    </div>
+  </div>
+  <div class="people">
+    <img class="people__photo" src="/images/peoples/9_boridko.jpg">
+    <div class="people__info">
+      <div class="people__name">Боридко Владимир Станиславович</div>
+      <span class="people__info-label">Занимаемая должность:</span> доцент<br>
+      <span class="people__info-label">Ученая степень, звание:</span> кандидат технических наук, доцент<br>
+      <span class="people__info-label">Специальность по диплому:</span> химия и технология тонких органических соединений<br>
+      <span class="people__info-label">Преподаваемые дисциплины:</span> «Информационные технологии в химии», «Основы разработки информационных систем в химической технологии», Операционные системы и сети<br>
+      <span class="people__info-label">Общий стаж работы:</span> 17 лет<br>
+      <span class="people__info-label">Научно-педагогический стаж работы:</span> 17 лет<br>
+    </div>
+  </div>
+  <div class="people">
+    <img class="people__photo" src="/images/peoples/10_dudarev.jpg">
+    <div class="people__info">
+      <div class="people__name">Дударев Виктор Анатольевич</div>
+      <span class="people__info-label">Занимаемая должность:</span> доцент<br>
+      <span class="people__info-label">Ученая степень, звание:</span> кандидат технических наук, доцент<br>
+      <span class="people__info-label">Специальность по диплому:</span> Автоматизированные системы обработки информации и управления<br>
+      <span class="people__info-label">Преподаваемые дисциплины:</span> «Вычислительные системы, сети и телекоммуникации», «Программирование», «Высокоуровневые методы информатики»<br>
+      «Программные и аппаратные средства информатики»
+      <span class="people__info-label">Общий стаж работы:</span> 15 лет<br>
+      <span class="people__info-label">Научно-педагогический стаж работы:</span> 15 лет<br>
+    </div>
+  </div>
+  <div class="people">
+    <img class="people__photo" src="/images/peoples/11_razlivinskaya.jpg">
+    <div class="people__info">
+      <div class="people__name">Разливинская Светлана Владимировна</div>
+      <span class="people__info-label">Занимаемая должность:</span> доцент<br>
+      <span class="people__info-label">Ученая степень, звание:</span> кандидат технических наук, доцент<br>
+      <span class="people__info-label">Специальность по диплому:</span> Химическая технология и биотехнология<br>
+      <span class="people__info-label">Преподаваемые дисциплины:</span> «Информационные технологии в химии», «Основы разработки информационных систем в химической технологии», «Информационные технологии  в управлении химико-технологическими процессами», «Мировые информационные ресурсы», «Корпоративные информационные системы»<br>
+      <span class="people__info-label">Общий стаж работы:</span> 20 лет<br>
+      <span class="people__info-label">Научно-педагогический стаж работы:</span> 15 лет<br>
+    </div>
+  </div>
+  <div class="people">
+    <img class="people__photo" src="/images/peoples/12_kryukova.jpg">
+    <div class="people__info">
+      <div class="people__name">Крюкова Ольга Викторовна</div>
+      <span class="people__info-label">Занимаемая должность:</span> старший преподаватель<br>
+      <span class="people__info-label">Специальность по диплому:</span> инженер-электромеханик<br>
+      <span class="people__info-label">Преподаваемые дисциплины:</span> «Информационные технологии в химии», «Основы разработки информационных систем в химической технологии», «Информационные технологии  в управлении химико-технологическими процессами», «Мировые информационные ресурсы», «Корпоративные информационные системы»<br>
+      <span class="people__info-label">Общий стаж работы:</span> 35 лет<br>
+      <span class="people__info-label">Научно-педагогический стаж работы:</span> 19 лет<br>
+    </div>
+  </div>
+  <div class="people">
+    <img class="people__photo" src="/images/peoples/13_stolbov.jpg">
+    <div class="people__info">
+      <div class="people__name">Столбов Леонид</div>
+      <span class="people__info-label">Занимаемая должность:</span> ассистент<br>
+      <span class="people__info-label">Специальность по диплому:</span> химическая технология и биотехнология<br>
+      <span class="people__info-label">Преподаваемые дисциплины:</span> «Информационные технологии в химии», «Основы разработки информационных систем в химической технологии», «Математические методы в экономике»<br>
+      <span class="people__info-label">Общий стаж работы:</span> 5 лет<br>
+      <span class="people__info-label">Научно-педагогический стаж работы:</span> 2 года<br>
+    </div>
+  </div>
+  <div class="people">
+    <img class="people__photo" src="/images/peoples/14_davydenko.jpg">
+    <div class="people__info">
+      <div class="people__name">Давыденко Андрей Александрович</div>
+      <span class="people__info-label">Занимаемая должность:</span> ассистент<br>
+      <span class="people__info-label">Специальность по диплому:</span> Прикладная информатика<br>
+      <span class="people__info-label">Преподаваемые дисциплины:</span> «Информационные технологии в химии», «Основы разработки информационных систем в химической технологии»<br>
+      <span class="people__info-label">Общий стаж работы:</span> 5 лет<br>
+      <span class="people__info-label">Научно-педагогический стаж работы:</span> 2 года<br>
+    </div>
+  </div>
 </div>

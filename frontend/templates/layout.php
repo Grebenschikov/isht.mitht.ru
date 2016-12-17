@@ -4,6 +4,9 @@
   <meta charset="utf-8">
   <title><?=$title?></title>
   <link rel="stylesheet" type="text/css" href="/app.css">
+  <!--[if lte IE 8]>
+    <link rel="stylesheet" type="text/css" href="/ie.css" />
+  <![endif]-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <meta name="robots" content="index, follow">
   <meta name="keywords" content="МИТХТ, ИСХТ, Кафедра информационых систем в химической технологии, Московский технологический университет">
@@ -37,12 +40,18 @@
     </div>
     <div class="header__title-container">
       <div class="header__short-title">
-        <a href="/" class="header__anchor">Кафедра ИСХТ</a>
+        <a href="/" class="header__anchor">
+          Кафедра ИСХТ
+        </a>
       </div>
       <div class="header__title">
-        <a href="/" class="header__anchor">Кафедра информационых систем в химической технологии</a>
+        <a href="/" class="header__anchor">
+          Кафедра информационых систем в химической технологии
+        </a>
       </div>
-      <div class="header__subtitle">Московский технологический университет</div>
+      <div class="header__subtitle">
+        Московский технологический университет
+      </div>
     </div>
   </div>
 </div>
@@ -66,8 +75,12 @@
 </div>
 <div class="footer">
   <div class="footer__wrapper">
-    <a href="/" class="footer__title">Кафедра информационных систем в химической технологии</a>
-    <span class="footer__copyright">Московский технологический университет &copy; <?=date('Y')?></span>
+    <a href="/" class="footer__title">
+      Кафедра информационных систем в химической технологии
+    </a>
+    <span class="footer__copyright">
+      Московский технологический университет &copy; <?=date('Y')?>
+    </span>
   </div>
 </div>
 <script type="text/javascript" src="/app.js"></script>

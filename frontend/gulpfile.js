@@ -11,11 +11,12 @@ const inlinemin = require('gulp-minify-inline');
 const path = {
   js: 'scripts/**/*.js',
   css: 'styles/**/*.css',
+  iecss: 'styles/ie.css',
   tpl: 'templates/*.php',
 }
 
 gulp.task('js', () => {
-  return gulp.src(path.js)
+  gulp.src(path.js)
     .pipe(babel({
       presets: ['es2015']
     }))    
@@ -25,17 +26,24 @@ gulp.task('js', () => {
 });
 
 gulp.task('css', () => {
-  return gulp.src(path.css)
+  gulp.src([path.css, `!${path.iecss}`])
     .pipe(concat('app.css'))
     .pipe(postcss([
       cssnext(),
       cssnano({autoprefixer: false})
     ]))
     .pipe(gulp.dest('../public'));
+
+  gulp.src(path.iecss)
+    .pipe(postcss([
+      cssnext(),
+      cssnano({autoprefixer: false})
+    ]))
+    .pipe(gulp.dest('../public'));    
 });
 
 gulp.task('tpl', () => {
-  return gulp.src(path.tpl)
+  gulp.src(path.tpl)
     .pipe(htmlmin({collapseWhitespace: true}))
     .pipe(inlinemin())
     .pipe(gulp.dest('../pages'));

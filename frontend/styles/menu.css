@@ -24,7 +24,7 @@
   }
 }
 
-@media (min-width: 960px) {
+@media only screen and (min-width: 960px) {
   .menu {
     width: 260px;
     display: inline-block;
@@ -33,13 +33,19 @@
   }
 }
 
-@media (max-width: 959px) {
+@media only screen and (max-width: 959px) {
   .menu {
-    display: block;
-    border-bottom: 1px solid rgba(0, 0, 0, .08);
+    position: fixed;
+    background: #fff;
+    width: 100%;
+    height: calc(100% - 46px);
+    overflow-y: scroll;
+    margin-left: 0;
+    transition: margin-left .3s ease-out;
+    z-index: 1;
 
     &_hidden {
-      display: none;
+      margin-left: -100%;
     }
   }
 }

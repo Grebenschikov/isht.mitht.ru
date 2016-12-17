@@ -9,7 +9,9 @@
 
   const pageDidLoad = () => {
     document.body.scrollTop = 0;
-    document.querySelector('.menu').classList.add('menu_hidden');
+    const menu = document.querySelector('.menu');
+    menu.classList.add('menu_hidden');
+    menu.scrollTop = 0;
   };
 
   const clickListener = e => {

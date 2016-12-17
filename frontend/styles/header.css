@@ -10,10 +10,11 @@
   }
 
   &__menu-icon {
+    position: absolute;
     cursor: pointer;
-    margin: 8px;
-    width: 26px;
-    height: 26px;
+    padding: 8px;
+    width: 42px;
+    height: 42px;
     vertical-align: middle;
   }
 
@@ -58,7 +59,7 @@
   }
 }
 
-@media (min-width: 960px) {
+@media only screen and (min-width: 960px) {
   .header {
     height: 106px;
 
@@ -77,12 +78,15 @@
   }
 }
 
-@media (max-width: 959px) {
+@media only screen and (max-width: 959px) {
   .header {
+    position: fixed;
+    width: 100%;
     height: 46px;
+    top: 0;
 
     &__title-container {
-      width: calc(100% - 42px);
+      width: 100%;
       display: inline-block;
       line-height: 42px;
     }

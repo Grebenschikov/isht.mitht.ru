@@ -1,0 +1,38 @@
+.people {
+  margin-bottom: 20px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  &__photo {
+    width: 110px;
+    float: left;
+    margin: 5px 10px 5px 0;
+  }
+
+  &__name {
+    font-size: 16pt;
+    margin-bottom: 10px;
+  }
+
+  &__status {
+    font-size: 10pt;
+    font-style: italic;
+    margin-bottom: 5px;
+  }
+
+  &__info {
+    font-size: 11pt;
+  }
+
+  &__info-label {
+    font-weight: 600;
+  }
+}
+
+@media only screen and (min-width: 960px) {
+  .people__info {
+    margin-left: 120px;
+  }
+}
