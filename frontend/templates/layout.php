@@ -12,6 +12,7 @@
   <meta name="keywords" content="МИТХТ, ИСХТ, Кафедра информационых систем в химической технологии, Московский технологический университет">
   <meta name="description" content="Официальный сайт кафедры информационых систем в химической технологии МИТХТ.">
   <meta name="yandex-verification" content="4cbc78b86d3340b9">
+  <meta name="google-site-verification" content="EppwdkGzOUtHU1ZdYJ3TblVV1o2HI12ebE-ymTDs0wk" />
 
   <link rel="apple-touch-icon" sizes="57x57" href="/icons/apple-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="60x60" href="/icons/apple-icon-60x60.png">
