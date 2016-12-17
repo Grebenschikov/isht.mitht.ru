@@ -14,13 +14,10 @@
     "cssnano": "^3.8.2",
     "gulp": "^3.9.1",
     "gulp-babel": "^6.1.2",
-    "gulp-clean": "^0.3.2",
     "gulp-concat": "^2.6.1",
     "gulp-htmlmin": "^3.0.0",
     "gulp-minify-inline": "^0.2.1",
-    "gulp-minify-inline-scripts": "0.0.6",
     "gulp-postcss": "^6.2.0",
-    "gulp-selectors": "^0.1.9",
     "gulp-uglify": "^2.0.0",
     "postcss-cssnext": "^2.9.0"
   }
