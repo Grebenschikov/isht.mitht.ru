@@ -19,7 +19,7 @@
   }
 
   &__anchor:hover, &__anchor_active {
-    background: #e6e4e4;
+    background: #f0efef;
     color: #4a4a4a;
   }
 }
