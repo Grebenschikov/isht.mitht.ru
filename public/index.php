@@ -42,7 +42,7 @@ if (array_key_exists("HTTP_X_REQUESTED_WITH", $_SERVER)) {
   echo json_encode($params);
 } else {
   if ($page == 404) {
-    header("404 Page Not Found");
+    header("HTTP/1.0 404 Not Found");
   }
 
   $params["pages"] = $pages;
