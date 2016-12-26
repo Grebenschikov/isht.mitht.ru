@@ -41,6 +41,10 @@ if (array_key_exists("HTTP_X_REQUESTED_WITH", $_SERVER)) {
   header("Content-Type: application/json");
   echo json_encode($params);
 } else {
+  if ($page == 404) {
+    header("404 Page Not Found");
+  }
+
   $params["pages"] = $pages;
   echo tpl("layout", $params);
 }
