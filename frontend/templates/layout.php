@@ -80,10 +80,8 @@
     </span>
   </div>
 </div>
-<style type="text/css">
-  @import "/app.css";
-  @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600&subset=cyrillic-ext");
-</style>
+<link href="/app.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600&subset=cyrillic-ext" rel="stylesheet">
 <!--[if lte IE 8]>
   <link rel="stylesheet" type="text/css" href="/ie.css" />
 <![endif]-->
