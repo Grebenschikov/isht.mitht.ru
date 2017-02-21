@@ -3,11 +3,6 @@
 <head>
   <meta charset="utf-8">
   <title><?=$title?></title>
-  <link href="/app.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600&subset=cyrillic-ext" rel="stylesheet">
-  <!--[if lte IE 8]>
-    <link rel="stylesheet" type="text/css" href="/ie.css" />
-  <![endif]-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <meta name="robots" content="index, follow">
   <meta name="keywords" content="МИТХТ, ИСХТ, Кафедра информационых систем в химической технологии, Московский технологический университет">
@@ -85,6 +80,11 @@
     </span>
   </div>
 </div>
+<link href="/app.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600&subset=cyrillic-ext" rel="stylesheet">
+<!--[if lte IE 8]>
+  <link rel="stylesheet" type="text/css" href="/ie.css" />
+<![endif]-->
 <script type="text/javascript" src="/app.js"></script>
 <!-- Yandex.Metrika counter -->
 <script type="text/javascript">
