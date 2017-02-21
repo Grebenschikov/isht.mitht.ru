@@ -44,8 +44,14 @@ gulp.task('css', () => {
 
 gulp.task('tpl', () => {
   gulp.src(path.tpl)
-    .pipe(htmlmin({collapseWhitespace: true}))
-    .pipe(inlinemin())
+    .pipe(htmlmin({
+      collapseWhitespace: true
+    }))
+    .pipe(inlinemin({
+      css: {
+        processImport: false
+      }
+    }))
     .pipe(gulp.dest('../pages'));
 })
 
