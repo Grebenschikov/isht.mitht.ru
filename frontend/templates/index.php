@@ -1,18 +1,16 @@
 <div class="content__title">О кафедре</div>
 <div class="content__text">
    <div class="people">
-    <img class="people__photo" src="/images/peoples/1_kornyushko.jpg">
+    <img class="people__photo" src="/images/peoples/4_kolybanov.jpg">
     <div class="people__info">
-      <div class="people__name">Корнюшко Валерий Федорович</div>
+      <div class="people__name">Колыбанов Кирилл Юрьевич</div>
       <div class="people__status">
         Заведующий кафедрой<br>
-        Заслуженный деятель науки Российской Федерации, лауреат премии Правительства России в 
-        области образования, доктор технических наук, профессор.
       </div>
       <span class="people__info-label">Адрес:</span>
       <i>г. Москва, ул. Малая Пироговская, д.1, корпус Б, ауд. Б-401</i><br>
-      <span class="people__info-label">E-mail:</span> 
-      <i><a href="mailto:vfk256@mail.ru">vfk256@mail.ru</a></i><br>
+      <!-- <span class="people__info-label">E-mail:</span>  -->
+      <!-- <i><a href="mailto:vfk256@mail.ru">vfk256@mail.ru</a></i><br> -->
       <span class="people__info-label">Часы приёма:</span> вторник 12:00 - 16:00<br>
     </div>
   </div>
