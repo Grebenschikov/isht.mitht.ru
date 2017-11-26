@@ -81,11 +81,11 @@
   </div>
 </div>
 <link href="/app.css" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600&subset=cyrillic-ext" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600&amp;subset=cyrillic-ext" rel="stylesheet">
 <!--[if lte IE 8]>
   <link rel="stylesheet" type="text/css" href="/ie.css" />
 <![endif]-->
-<script type="text/javascript" src="/app.js"></script>
+<script type="text/javascript" async src="/app.js"></script>
 <!-- Yandex.Metrika counter -->
 <script type="text/javascript">
   (function (d, w, c) {
